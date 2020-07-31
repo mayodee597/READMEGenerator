@@ -1,15 +1,21 @@
 {
-  "name": "riidme",
+  "name": "ini",
   "version": "1.0.0",
-  "description": "ssss",
-  "main": "riidme.js",
+  "description": "gety",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose test/*"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^7.3.2",
-    "prompt-sync": "^4.2.0"
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "jest": "^26.1.0",
+    "path": "^0.12.7"
   }
 }
